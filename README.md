@@ -7,7 +7,6 @@
 ![mBlock](https://img.shields.io/badge/mBlock-5.6.0-blue?style=for-the-badge)
 ![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-![License](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)
 
 </div>
 
@@ -192,12 +191,6 @@ O Fangs & Fists foi projetado com atenção às necessidades de jogadores com di
 - Tempo de cooldown visível para planejamento de ações
 - Estrutura de rodadas curtas para manter o foco
 - Sistema adaptativo de diminuição de velocidade
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
