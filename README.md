@@ -203,10 +203,16 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## 👥 Equipe
 
-| Membro     | Responsabilidade                          |
-|------------|-------------------------------------------|
-| Letícia    |  |
-| [Membros]   |       |
+| Membro              | Curso  |
+|---------------------|--------|
+| Alice Siqueira      | Design |
+| Carlos Corrêa       | CC     |
+| Cora Jordão         | Design |
+| Gabriela Manzi      | CC     |
+| Joaquim Carvalheira | CC     |
+| Letícia Almeida     | CC     |
+| Maria Eugênia       | CC     |  
+
 
 <div align="center">
   Feito com ❤️ e muito <code>broadcast</code>
