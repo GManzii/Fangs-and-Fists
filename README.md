@@ -205,6 +205,13 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ---
 
+## 👥 Equipe
+
+| Membro     | Responsabilidade                          |
+|------------|-------------------------------------------|
+| Letícia    |  |
+| [Membros]   |       |
+
 <div align="center">
   Feito com ❤️ e muito <code>broadcast</code>
 </div>
