@@ -1,7 +1,7 @@
 # Fangs-and-Fists
-# 🦷 Fangs & Fists
+# Fangs & Fists
 
-> Jogo de luta 2D com integração Arduino e acessibilidade cognitiva — desenvolvido em mBlock 5
+> Jogo de luta 2D estilo fliperama com integração Arduino e acessibilidade cognitiva — desenvolvido em mBlock 5
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 ## 📖 Sobre o Projeto
 
-**Fangs & Fists** é um jogo de luta 2D desenvolvido em mBlock (baseado em Scratch) com integração física via Arduino Uno. O projeto foi criado como trabalho universitário em equipe, com foco especial em **acessibilidade cognitiva** — projetado para ser jogável por pessoas com diferenças de atenção e processamento.
+**Fangs & Fists** é um jogo de luta 2D desenvolvido em mBlock (baseado em Scratch) com integração física via Arduino Uno. O projeto foi criado como trabalho universitário em equipe, com foco especial em **acessibilidade cognitiva** — projetado para ser jogável por pessoas com TDAH e autismo nível 1.
 
 Os jogadores escolhem personagens com atributos únicos, utilizam poderes especiais e disputam rodadas em combate direto, com controles físicos via botões conectados ao Arduino.
 
@@ -24,13 +24,12 @@ Os jogadores escolhem personagens com atributos únicos, utilizam poderes especi
 
 ## ✨ Funcionalidades
 
-- 🎮 **Dois modos de jogo:** Multiplayer local e Singleplayer (vs. IA)
+- 🎮 **Dois modos de jogo:** Multiplayer local e Singleplayer (vs. bot)
 - 🦁 **4 personagens jogáveis**, cada um com stats únicos de Força e Velocidade
 - ⚡ **4 poderes especiais** com cooldown e uso único por batalha
 - 🕹️ **Controles físicos** via 4 botões conectados ao Arduino Uno
 - 📊 **Sistema de HP com barra visual** animada em tempo real
 - 🔄 **Rodadas configuráveis** (1, 3 ou 5 por partida)
-- ⏱️ **Tempo limite de 3 minutos** por rodada (empate automático)
 - ♿ **Design acessível** para jogadores com diferenças cognitivas
 
 ---
@@ -183,13 +182,6 @@ Botão → Pino Digital (2-5) → Arduino → USB → PC → mBlock
 - [ ] Display externo de HP via segundo Arduino
 
 ---
-
-## 👥 Equipe
-
-| Membro     | Responsabilidade                          |
-|------------|-------------------------------------------|
-| Letícia    |  |
-| [Membros]   |       |
 
 > Projeto desenvolvido para disciplina universitária com reconhecimento do Rotary International 🏆
 
