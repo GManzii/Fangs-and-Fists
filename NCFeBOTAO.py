@@ -17,8 +17,6 @@ tags = {
     "F3 92 BD 07": "8",     #ESCUDO = 0129864435
     "43 20 D1 07": "9",     #VENENO = 0131145795
     "03 89 DB FD": "0",     #MORDIDA = 4259023107
-    #EASTER EGG
-    "11 DE FF 66": "space", #CARLOS = CRACHÁ
     #BOTOES
     "AZUL": "h",
     "VERDE": "j",
