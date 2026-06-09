@@ -8,15 +8,15 @@ BAUDRATE = 9600
 # 📌 TAG : TECLA
 tags = {
     #ANIMAIS
-    "C3 4C EE FD": "1",     #LEAO = 4260252867
-    "43 66 F8 EB": "2",     #TUBARAO = 3958924867
-    "F3 1B D3 07": "3",     #TIGRE = 0131275763
-    "B3 98 B1 07": "4",     #GORILA = 0129079475
+    "F3 1B D3 07": "1",     #GORILA
+    "43 66 F8 EB": "2",     #TUBARAO
+    "C3 4C EE FD": "3",     #LEAO
+    "B3 98 B1 07": "4",     #TIGRE
     #PODERES
-    "A3 F8 C7 FD": "7",     #GELO = 4257740963
-    "F3 92 BD 07": "8",     #ESCUDO = 0129864435
-    "43 20 D1 07": "9",     #VENENO = 0131145795
-    "03 89 DB FD": "0",     #MORDIDA = 4259023107
+    "A3 F8 C7 FD": "7",     #GELO
+    "F3 92 BD 07": "8",     #ESCUDO
+    "43 20 D1 07": "9",     #VENENO
+    "03 89 DB FD": "0",     #MORDIDA
     #BOTOES
     "AZUL": "h",
     "VERDE": "j",
