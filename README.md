@@ -1,4 +1,3 @@
-# Fangs-and-Fists
 # Fangs & Fists
 
 > Jogo de luta 2D estilo fliperama com integração Arduino e acessibilidade cognitiva — desenvolvido em mBlock 5
@@ -92,7 +91,6 @@ Menu Principal
 
 - 1× Arduino Uno
 - 4× Botões (push buttons)
-- 4× Resistores 10kΩ (opcional com `INPUT_PULLUP`)
 - Cabos jumper
 - Protoboard
 
@@ -100,15 +98,15 @@ Menu Principal
 
 | Botão         | Pino Arduino | Jogador |
 |---------------|--------------|---------|
-| Atacar        | D2           | J1      |
-| Poder         | D3           | J1      |
-| Atacar        | D4           | J2      |
-| Poder         | D5           | J2      |
+| Azul          | 5            | J1      |
+| Amarelo       | 2            | J1      | 
+| Verde         | 4            | J2      |
+| Vermelho      | 7            | J2      |
 
 ### Esquema de Conexão
 
 ```
-Botão → Pino Digital (2-5) → Arduino → USB → PC → mBlock
+Botão → Pino Digital → Arduino → Arduino IDE → Python → mBlock
 ```
 
 > Os pinos são lidos com `INPUT_PULLUP`. Cada leitura é enviada ao mBlock via broadcasts para comunicação com os sprites do jogo.
@@ -119,8 +117,7 @@ Botão → Pino Digital (2-5) → Arduino → USB → PC → mBlock
 
 | Variável              | Descrição                              |
 |-----------------------|----------------------------------------|
-| `hp_j1` / `hp_j2`    | Pontos de vida (iniciam em 100)        |
-| `vida_j1` / `vida_j2`| HP atual usado nas animações           |
+| `vida_j1` / `vida_j2` | HP de cada personagem           |
 | `estado`              | Estado atual do jogo                   |
 | `modo_jogo`           | Multiplayer ou Singleplayer            |
 | `personagem_j1/j2`    | Personagem escolhido por cada jogador  |
@@ -163,7 +160,7 @@ Botão → Pino Digital (2-5) → Arduino → USB → PC → mBlock
    - Clique na bandeira verde para iniciar
    - Use os botões físicos para atacar e usar poderes
 
-> **Sem Arduino?** O jogo também pode ser jogado pelo teclado em modo de simulação.
+> **Sem Arduino?** O jogo também pode ser jogado pelo teclado em modo de simulação. O botão azul é a tecla H
 
 ---
 
@@ -175,27 +172,26 @@ Botão → Pino Digital (2-5) → Arduino → USB → PC → mBlock
 - [x] Integração com Arduino (botões físicos)
 - [x] Animações de ataque, dano e morte
 - [x] Modos de rodadas (1/3/5)
-- [ ] IA para modo Singleplayer
+- [ ] Bot para modo Singleplayer
 - [ ] Sistema de dificuldade adaptativa
 - [ ] Integração NFC (cartões RC522 para seleção de personagem)
-- [ ] Condição de empate por tempo (3 minutos)
-- [ ] Display externo de HP via segundo Arduino
 
 ---
 
-> Projeto desenvolvido para disciplina universitária com reconhecimento do Rotary International 🏆
+> Projeto desenvolvido para disciplina universitária Projetos 1 da CESAR School 🏆
 
 ---
 
 ## ♿ Acessibilidade Cognitiva
 
-O Fangs & Fists foi projetado com atenção às necessidades de jogadores com diferenças de atenção e processamento:
+O Fangs & Fists foi projetado com atenção às necessidades de jogadores com dificuldades de atenção e processamento:
 
 - Interface visual clara com feedbacks imediatos
 - Animações distintas para cada ação de jogo
 - Controles físicos que reduzem carga cognitiva de teclado
 - Tempo de cooldown visível para planejamento de ações
 - Estrutura de rodadas curtas para manter o foco
+- Sistema adaptativo de diminuição de velocidade
 
 ---
 
