@@ -1,3 +1,5 @@
+<div align="center">
+    
 # Fangs & Fists
 
 > Jogo de luta 2D estilo fliperama com integração Arduino e acessibilidade cognitiva — desenvolvido em mBlock 5
