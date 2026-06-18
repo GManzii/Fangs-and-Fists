@@ -2,7 +2,7 @@
 
 # 🎮 Fangs and Fists
 
-### Códigos-fonte do projeto
+### Códigos-fonte do jogo
 
 Projeto desenvolvido utilizando **mBlock**, **Arduino** e **Python** para integração entre hardware e software em um jogo interativo.
 
@@ -16,9 +16,9 @@ Projeto desenvolvido utilizando **mBlock**, **Arduino** e **Python** para integr
 
 | Arquivo | Descrição |
 |----------|----------|
-| 🐍 `leitor_rfid.py` | Comunicação entre Python e Arduino, leitura de tags RFID e controle das ações do jogo |
-| 🔌 `leitor_rfid.ino` | Código do Arduino responsável pela leitura dos botões e das tags RFID |
-| 🎨 `FangsAndFists.mblock` | Projeto principal desenvolvido no mBlock |
+| 🐍 `nfc_botao.py` | Comunicação entre Python e Arduino, leitura de tags RFID e controle das ações do jogo |
+| 🔌 `sketch_nfc_botao.ino` | Código do Arduino responsável pela leitura dos botões e das tags RFID |
+| 🎨 `FangsAndFists-2.mblock` | Projeto principal desenvolvido no mBlock |
 
 </div>
 
