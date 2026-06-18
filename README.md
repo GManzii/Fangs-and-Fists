@@ -6,7 +6,7 @@
 
 ![mBlock](https://img.shields.io/badge/mBlock-5.6.0-blue?style=for-the-badge)
 ![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Status](https://img.shields.io/badge/Status-%20Concluída-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-%20Concluído-yellow?style=for-the-badge)
 
 </div>
 
